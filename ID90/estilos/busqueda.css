@@ -1,0 +1,43 @@
+.background{
+    background-color: rgb(97, 89, 119);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border: black solid 2px;
+    border-radius: 10px;
+    font-family: fantasy;
+}
+body{
+    background-image: url("https://www.zurich.es/documents/877376/975486/mejores-aerolineas-volar-seguro-viaje-blog-zurich.jpg/9eb0f3ca-8317-ff3e-0be5-5c199462a5e5?t=1575979368078");
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+.e{
+    padding-left: 20px;
+}
+.e2{
+    padding-right: 50px;
+}
+.input{
+    border-radius: 5px;
+    border: black solid 2px;
+    font-family: fantasy;
+}
+.btn{
+    margin-left: 20px;
+    font-family: fantasy;
+    border-radius: 10px;
+    background-color: white;
+    border: black 2px solid;
+    cursor: pointer;
+    width: 5%;
+    height: 4%;
+}
+.btn:hover{
+    color:white;
+    background-color: black;
+    border: white 2px solid;
+}
+.btn:disabled{
+    background-color: gray;
+}

@@ -4,12 +4,13 @@
     $aerolineas = array_map(function($item) {
         return $item['code'];
     }, $response);
-
-
 ?>
 <html>
- <form action="form.php" method="post">
-    <label>Aerolinea</label>
+<link rel="stylesheet" href="./estilos/style.css">
+<center>
+ <form action="form.php" method="post" class="background">
+  
+    <label class="label">Aerolinea</label>
     <select name="aero">
          <script>
             <?php
@@ -19,8 +20,14 @@
             ?>
          </script>
     </select>
-    Nombre: <input type="text" name="nombre"><br>
-    Contraseña: <input type="password" name="contraseña"><br>
-    <input type="submit" value="Enviar">
+    <div class="separacion">
+    <label class="label">Nombre: </label><input type="text" name="nombre">
+    </div>
+    <label class="label">Contraseña: </label><input type="password" name="contraseña">
+    <br/>
+    <div class="espacioBtn">
+    <input type="submit" value="Enviar" class="btn">
+    </div>
  </form>
+ </center>
 </html>

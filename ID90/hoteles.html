@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="./estilos/busqueda.css">
+    <form action="hotel.php" method="post" class="background">
+        <e class="e">Destino: </e><input name="destino" class="input"/>
+        <e class="e">CheckIn: </e><input type="date" name="checkIn" class="input"/>
+        <e class="e">CheckOut: </e><input type="date" name="checkOut" class="input"/>
+        <e class="e">Cantidad de viajeros: </e><select name="guests" class="input">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+        </select>
+        <button type="submit" class="btn">BUSCAR</button>
+    </form>
+</body>
+</html>

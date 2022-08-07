@@ -1,0 +1,33 @@
+body {
+  background-image: url("https://img.freepik.com/fotos-premium/desenfoque-abstracto-lobby-hotel-lujo-fondo_1339-98452.jpg?w=2000");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.background{
+    background-color: rgb(97, 89, 119);
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.label{
+    font-family: fantasy;
+    text-decoration: underline;
+}
+.texto{
+    position: absolute;
+}
+.btn{
+    position: absolute;
+    font-family: fantasy;
+    border-radius: 10px;
+    background-color: white;
+    border: black 2px solid;
+    cursor: pointer;
+    width: 4%;
+    height: 4%;
+    top:3%;
+    left:38%;
+}

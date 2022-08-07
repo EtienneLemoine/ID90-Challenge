@@ -1,0 +1,17 @@
+.backgroud{
+    position: relative;
+    background-color: rgb(1, 97, 1);
+    width: 40%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 10%;
+}
+.h1{
+    font-size: 150%;
+    font-family: fantasy;
+}
+body{
+    background-image: url("https://www.zurich.es/documents/877376/975486/mejores-aerolineas-volar-seguro-viaje-blog-zurich.jpg/9eb0f3ca-8317-ff3e-0be5-5c199462a5e5?t=1575979368078");
+    background-size: 110%;
+    background-repeat: no-repeat;
+}

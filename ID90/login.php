@@ -11,7 +11,7 @@
  <form action="form.php" method="post" class="background">
   
     <label class="label">Aerolinea</label>
-    <select name="aero">
+    <select name="aero" id="aero">
          <script>
             <?php
                 foreach($aerolineas as $aerolinea) {
@@ -21,13 +21,14 @@
          </script>
     </select>
     <div class="separacion">
-    <label class="label">Nombre: </label><input type="text" name="nombre">
+    <label class="label">Nombre: </label><input type="text" name="nombre" id="nombre">
     </div>
-    <label class="label">Contraseña: </label><input type="password" name="contraseña">
+    <label class="label">Contraseña: </label><input type="password" name="contraseña" id="contraseña">
     <br/>
     <div class="espacioBtn">
-    <input type="submit" value="Enviar" class="btn">
+    <input type="submit" value="Enviar" class="btn" id="btn" disabled>
     </div>
  </form>
+ <script src="./JS/controladorLogIn.js"></script>
  </center>
 </html>
